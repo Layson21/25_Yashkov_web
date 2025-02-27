@@ -1,9 +1,11 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 567px) {
 	body {
 		grid-template-areas: "header header header"
 						 "main main main"
 						 "footer footer footer";
 		grid-template-columns: none;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 	.aside-left, .aside-right {
 		display: none;
@@ -19,6 +21,12 @@
 	}
 	section {
 		min-height: 30vh;
+	}
+	span {
+		font-size: 11px;
+	}
+	.home-section {
+		text-align: center;
 	}
 	.smartHomeImage {
 		width: 80%;
@@ -55,6 +63,7 @@
 		z-index: 2;
 		background-color: white;
 		display: block;
+		margin-left: -5px;
 	}
 	.ad-banner-horizontal {
 		width: 100%;

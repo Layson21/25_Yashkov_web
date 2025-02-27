@@ -63,7 +63,7 @@ section:not(:last-child)::after {
     background-color: white;
     z-index: 2;
 }
-h1, h2, h3, li, p, cite, small {
+h1, h2, h3, li, p, cite, small, span {
 	font-family: "Raleway", monospace;
 	color: white;
 }
@@ -153,7 +153,7 @@ h3, .facts li {
 .reviews p {
 	font-size: 1.3vw;
 }
-.reviews cite {
+span, .reviews cite {
 	font-size: 1vw;
 }
 .sell {
