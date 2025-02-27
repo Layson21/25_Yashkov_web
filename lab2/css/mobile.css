@@ -1,0 +1,64 @@
+@media (min-width: 320px) and (max-width: 768px) {
+	body {
+		grid-template-areas: "header header header"
+						 "main main main"
+						 "footer footer footer";
+		grid-template-columns: none;
+	}
+	.aside-left, .aside-right {
+		display: none;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	section {
+		min-height: 30vh;
+	}
+	.smartHomeImage {
+		width: 80%;
+	}
+	.functions li {
+		font-size: 14px;
+	}
+	.facts li {
+		font-size: 14px;
+	}
+	.reviews blockquote {
+		width: 90%;
+	}
+	.reviews p {
+		font-size: 14px;
+	}
+	.reviews cite {
+		font-size: 11px;
+	}
+	.sell {
+		height: 50vh;
+	}
+	.functionImage {
+		max-width: 50%;
+	}
+	.cartImage {
+		bottom: 100px;
+	}
+	.aside-horizontal {
+		width: 100vw;
+		min-height: 5vh;
+		position: fixed;
+		bottom: 0;
+		z-index: 2;
+		background-color: white;
+		display: block;
+	}
+	.ad-banner-horizontal {
+		width: 100%;
+		height: 10vh;
+		z-index: 3;
+	}
+}
