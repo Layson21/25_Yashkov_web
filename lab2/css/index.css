@@ -63,7 +63,7 @@ section:not(:last-child)::after {
     background-color: white;
     z-index: 2;
 }
-h1, h2, h3, li, p, cite {
+h1, h2, h3, li, p, cite, small {
 	font-family: "Raleway", monospace;
 	color: white;
 }

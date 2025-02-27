@@ -9,7 +9,7 @@ wires_copy.style.cssText = wires.style.cssText;
 wires.parentNode.appendChild(wires_copy);
 wires_copy.style.marginLeft = `${wires.parentNode.offsetWidth * 2 - 10}px`;
 
-function wire_moving() {
+function wireMoving() {
     wires.style.marginLeft = `${parseInt(wires.style.marginLeft || 0, 10) - 5}px`;
     wires_copy.style.marginLeft = `${parseInt(wires_copy.style.marginLeft || 0, 10) - 5}px`;
     if (parseInt(wires_copy.style.marginLeft || 0, 10) < 0) {
@@ -18,7 +18,7 @@ function wire_moving() {
     }
 }
 
-setInterval(wire_moving, 16);
+setInterval(wireMoving, 16);
 
 
 const cart = document.querySelector(".cartImage");
