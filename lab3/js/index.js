@@ -186,7 +186,7 @@ function startGame(timeout=1000, first=true) {
 	        answer2.textContent = `2) ${correctAnswer}`;
 	    }
 
-	    let timeLeft = 1;
+	    let timeLeft = 7;
 	    timer.textContent = `Осталось времени: ${timeLeft}s`;
 	    let timerInterval = setInterval(() => {
 	        if (timeLeft === 0) {
