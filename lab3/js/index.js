@@ -132,7 +132,7 @@ function startGame(timeout=1000, first=true) {
         timer = document.createElement("span");
         result = document.createElement("img");
         music = document.createElement("audio");
-        music.src = "../music/music.mp3";
+        music.src = "./music/music.mp3";
         music.type ="audio/mpeg";
 
         question.style.fontSize = "3vw";
@@ -165,7 +165,7 @@ function startGame(timeout=1000, first=true) {
 	        alert(`Тест окончен! Ваш социальный рейтинг: ${score}`);
 	        if (score < 0) {
 	        	alert("Ужас! Отправляться санаторий отдых уйгур!")
-	        	window.location.href = "../img/pictures/mine.jpg";
+	        	window.location.href = "./img/pictures/mine.jpg";
 	        }
 	        currentQuestionIndex = 0;
 	        first = 0;
@@ -195,9 +195,9 @@ function startGame(timeout=1000, first=true) {
 
                 if (userAnswer && userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase()) {
                     score += 50;
-                    result.src = "../img/pictures/plus_credit.jpg";
+                    result.src = "./img/pictures/plus_credit.jpg";
                 } else {
-                    result.src = "../img/pictures/minus_credit.jpg";
+                    result.src = "./img/pictures/minus_credit.jpg";
                     score -= 50;
                 }
                 blockContent.appendChild(result);
