@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="icon" href="./img/icon.png">
+		<script src="./js/cookie.js"></script>
+		<title>Rock & Relax - все для вашего питомца</title>
+	</head> 
+
+	<body>
+
+		<header id="header" class="centered">
+			<img class="logoImage" src="./img/logo.png" alt="Rock & Relax | Hotel and Spa">
+			<div class="theme-switch" onclick="switchTheme()">
+				<div class="switch-slider"></div>
+			</div>
+		</header>
+
+		<main>
+
+			<aside class="aside-left">
+				<img id="ad-banner1" class="ad-banner" src="./img/banner1.png" alt="Реклама">
+			</aside>
+
+			<aside class="aside-right">
+				<img id="ad-banner2" class="ad-banner" src="./img/banner2.png" alt="Реклама">
+			</aside>
+
+			<aside class="aside-horizontal">
+				<img id="ad-banner3" class="ad-banner-horizontal" src="./img/banner3.png" alt="Реклама">
+			</aside>
+
+			<div class="content centered">
+
+				<section class="home-section centered welcome-description">
+					<img id="wires" class="homeImage" src="./img/section1.png" alt=''>
+					<h1>Rock & Relax</h1>
+					<h3>Smart • Food • Polishing</h3>
+				</section>
+
+				<section class="description-section centered">
+					<h2>Умный дом для вашего питомца-камня</h2>
+					<h3>
+						Подарите своему камню роскошь и комфорт, которых он заслуживает! Наш умный дом — это инновационное решение для самых требовательных (и самых твёрдых) питомцев. Теперь ваш камень будет жить в условиях, достойных королей минерального мира!
+					</h3>
+					<img class="smartHomeImage" src="./img/smart_home.png" alt="Умный дом">
+				</section>
+
+				<article class="functions">
+
+					<h2>Основные функции:</h2>
+
+					<section class="function">
+						<div class="description-function">
+							<h3>Регулирование света</h3>
+							<ul>
+								<li>Режим "День-Ночь": Автоматическое регулирование освещения, чтобы ваш камень всегда чувствовал себя комфортно.</li>
+								<li>Романтический режим: Мягкий свет для вечерних медитаций вашего камня.</li>
+							</ul>
+						</div>
+						<img class="functionImage" src="./img/glowstone.webp" alt="Функция">
+					</section>
+
+					<section class="function">
+						<div class="description-function">
+							<h3>Регулирование температуры и влажности</h3>
+							<ul>
+								<li>Идеальный климат: Поддерживайте оптимальную температуру и влажность, чтобы ваш камень всегда был в отличной форме.</li>
+								<li>Зимний режим: Тёплый уют для холодных вечеров.</li>
+								<li>Летний бриз: Лёгкая прохлада в жаркие дни.</li>
+							</ul>
+						</div>
+						<img class="functionImage" src="./img/temperature.png" alt="Функция">
+					</section>
+
+					<section class="function">
+						<div class="description-function">
+							<h3>Полировка</h3>
+							<ul>
+								<li>Автоматическая полировка: Ваш камень всегда будет сиять, как новенький!</li>
+								<li>Режим "Бриллиантовый блеск": Для особых случаев и фотосессий.</li>
+							</ul>
+						</div>
+						<img class="functionImage" src="./img/bolgarka.png" alt="Функция">
+					</section>
+
+					<section class="function">
+						<div class="description-function">
+							<h3>Кормёжка</h3>
+							<ul>
+								<li>Сбалансированное питание: Специальные минеральные добавки для здоровья и блеска вашего камня.</li>
+								<li>Режим "Гурман": Эксклюзивное меню для самых изысканных камней.</li>
+							</ul>
+						</div>
+						<img class="functionImage" src="./img/rockskas.png" alt="Функция">
+					</section>
+
+			    </article>
+
+				<section class="centered facts">
+					<h2>Почему ваш камень deserves it?</h2>
+					<ul>
+						<li>Комфорт: Ваш камень заслуживает только лучшего.</li>
+						<li>Здоровье: Поддержание идеальных условий для долголетия и блеска.</li>
+						<li>Стиль: Умный дом для камня — это не только функционально, но и модно!</li>
+						<li>Индивидуальный подход: Настройка условий под уникальные потребности вашего камня.</li>
+						<li>Экологичность: Забота о камне и планете одновременно.</li>
+					</ul>
+				</section>
+
+				<section class="sell centered">
+					<h2>Закажите умный дом для вашего питомца-камня уже сегодня!</h2>
+					<h3>Даже камни заслуживают любви и заботы.</h3>
+					<div class="cart-container">
+						<img class="cartImage" src="./img/store.png" alt="КУПИТЬ!">
+						<img class="cartImage" src="./img/store_black.png" alt="КУПИТЬ!">
+					</div>
+				</section>
+
+				<section class="reviews">
+					<h2>Отзывы наших клиентов</h2>
+					<div class="sort-filt">
+						<label for="sorting">Сортировка</label>
+						<select id="sorting">
+							<option value="1">С высокой оценки</option>
+							<option value="2">С низкой оценки</option>
+						</select>
+						<label for="filtering">Фильтр</label>
+						<select id="filtering">
+							<option value="1">Нет</option>
+							<option value="2">Короткие отзывы</option>
+							<option value="3">Длинные отзывы</option>
+						</select>
+					</div>
+					<div class="reviews-container"></div>
+					<div class="feedbackContainer centered" style="flex-direction: column;">
+						<div class="label-feedback">Оставить отзыв:</div>
+						<form id="reviewForm" class="review-form">
+							<div class="form-group">
+								<label for="name">Имя:</label>
+								<input type="text" id="name" placeholder="Введите ваше имя" maxlength="25" required>
+							</div>
+							<div class="form-group">
+								<label for="avatar">Выберите аватар:</label>
+								<input type="file" id="avatar" accept="image/jpeg">
+							</div>
+							<div class="form-group">
+								<label for="reviewText">Отзыв:</label>
+								<textarea id="reviewText" placeholder="Введите ваш отзыв" maxlength="500" wrap="soft" required></textarea>
+							</div>
+							<div class="form-group">
+								<label for="rating">Оценка (от 1 до 5):</label>
+								<input type="number" id="rating" placeholder="Оцените от 1 до 5" required>
+							</div>
+							<div class="form-group">
+								<label for="images">Добавить изображения (максимум 5):</label>
+								<input type="file" id="images" accept="image/jpeg" multiple>
+							</div>
+							<button type="submit">Отправить отзыв</button>
+						</form>
+					</div>
+				</section>
+			</div>
+
+		</main>
+
+		<footer class="centered">
+			<span>Права не защищены.</span>
+		</footer>
+
+		<script src="./js/index.js" defer></script>
+		
+	</body>
+
+</html>

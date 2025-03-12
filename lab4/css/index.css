@@ -1,0 +1,541 @@
+@import url('reset.css');
+
+@font-face {
+	font-family: "Nunito";
+	src: url("../fonts/Nunito-Bold.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+:root {
+ 	--background-color-bm: #202020;
+ 	--background-color-hf: #171717;
+ 	--theme-color: white;
+ 	--banner-color: #eeeeee;
+ 	--transition-duration: 0.7s;
+ 	--review-bg-color: #303030;
+}
+
+.light-theme {
+ 	--background-color-bm: #ffffff;
+ 	--background-color-hf: #1abc9c;
+ 	--theme-color: black;
+ 	--review-bg-color: #eeeeee;
+}
+
+body, main, header, footer, h1, h2, h3, li, p, small, span, .username, .review-text, #avatar, #images, .label-feedback, label, section:not(:last-child)::after, .functions:not(:last-child)::after, .reviews, .review{
+	transition: color var(--transition-duration) ease-in-out, border-color var(--transition-duration) ease-in-out, background-color var(--transition-duration) ease-in-out;
+}
+
+body {
+	display: grid;
+	grid-template-areas: "header"
+						 "main"
+						 "footer";
+	background-color: var(--background-color-bm);
+	position: relative;
+}
+
+main{
+	display: grid;
+	min-height: 85vh;
+	width: 100%;
+	grid-area: main;
+	grid-template-columns: 10% 80% 10%;
+	grid-template-areas: "banner-left content banner-right";
+	background-color: var(--background-color-bm);
+}
+
+header, footer {
+	background-color: var(--background-color-hf);
+}
+
+footer {
+	height: 5vh;
+	width: 100%;
+	grid-area: footer;
+	text-align: center;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	height: 10vh;
+	grid-area: header;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+
+}
+
+.content {
+	grid-area: content;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 10vh;
+}
+
+section:not(.function) {
+	min-height: 90vh;
+	position: relative;
+}
+
+.functions, section:not(.function, .reviews) {
+	padding-bottom: 5vh;
+	overflow: hidden;
+	width: 100%;
+}
+
+section:not(:last-child)::after, .functions:not(:last-child)::after  {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--theme-color);
+    z-index: 2;
+}
+
+.label-feedback {
+	font-size: 2vw;
+}
+
+h1, h2, h3, li, p, small, span, label, .username, .review-text, .label-feedback, #avatar, #images {
+	font-family: "Raleway", monospace;
+	color: var(--theme-color);
+}
+
+h1 {
+	font-size: 5vw;
+}
+
+h2 {
+	font-size: 2vw;
+	text-align: center;
+}
+
+h3, .facts li {
+	font-size: 1.5vw;
+}
+
+img {
+	user-select: none;
+}
+
+.aside-left {
+	grid-area: banner-left ;
+}
+
+.aside-right {
+	grid-area: banner-right ;
+}
+
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logoImage {
+	height: 80%;
+}
+
+.home-section > * {
+	z-index: 1;
+}
+
+.homeImage {
+	width:100%;
+	position: absolute;
+	z-index: 0;
+}
+
+.description-section, .home-section {
+	flex-direction: column;
+}
+
+.smartHomeImage {
+	width: 50%;
+}
+
+.description-function {
+	width: 50%;
+}
+
+.functions {
+	position: relative;
+}
+
+.functions li {
+	font-size: 1.2vw;
+}
+
+.function {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30vh;
+}
+
+.function:nth-child(even) .description-function {
+	order: 1;
+}
+
+.function:nth-child(odd) .description-function {
+	order: 2;
+}
+
+.function:nth-child(even) .functionImage {
+	order: 2;
+}
+
+.function:nth-child(odd) .functionImage {
+	order: 1;
+}
+
+.function {
+	margin-top: 15vh;
+}
+
+.functionImage {
+	max-width: 25%;
+}
+
+.facts {
+	flex-direction: column;
+}
+
+.reviews {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+}
+
+.reviews-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+	gap: 20px;
+	max-height: 70vh;
+	overflow-y: auto;
+	scrollbar-color: #888 #f1f1f1;
+}
+
+.review {
+	width: 80%;
+	background-color: var(--review-bg-color);
+	border-radius: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 2vh;
+	align-items: center;
+}
+
+.review-header {
+	width:100%;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.avatar-icon {
+	border-radius: 100%;
+	background-color: red;
+}
+
+.username {
+	width:calc(50% - 8vh);
+	height:100%; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	font-family: Raleway, monospace; 
+	font-size: 1.5vw; 
+	display: flex; 
+	align-items: center;
+}
+
+.review-rating {
+	width: 50%; 
+	height: 100%;
+	display: flex; 
+	align-items: center; 
+	flex-direction: row; 
+	font-family: Raleway, monospace; 
+	font-size: 1.5vw;
+	justify-content: flex-end;
+}
+
+.review-images {
+	width:100%;
+	display:flex; 
+	align-items: center; 
+	height: 10vh;  
+	flex-direction: row; 
+	gap:10px;
+}
+
+.review-text {
+	width: 100%;
+    max-width: 100%;
+    min-height: 25vh;
+    font-family: monospace;
+    font-size: 1.2vw;
+    text-align: justify;
+    word-break: break-all; 
+}
+
+.starImage, .avatar-icon, .miniImage {
+	width: 8vh; 
+	height: 8vh;
+}
+
+.miniImage {
+	background-color: black;
+}
+span {
+	font-size: 1vw;
+}
+
+.sell {
+	flex-direction: column;
+	text-align: center;
+}
+
+.cartImage {
+	position: absolute;
+	transition: opacity 0.6s ease-in-out;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.cart-container {
+	position: relative;
+	width: 20vw;
+	height: 20vw;
+}
+
+.ad-banner {
+	width: 10vw;
+	height: 85vh;
+	position: fixed;
+	top: 10vh;
+	z-index: 3;
+}
+
+.aside-horizontal {
+	display: none;
+}
+
+.theme-switch {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	width: 5vh;
+	height: 2.4vh;
+	right: 3.7vw;
+	border-radius: 1.5vh;
+}
+
+.switch-slider {
+	position: absolute;
+	width: 2vh;
+	height: 2vh;
+	background-color: black;
+	border-radius: 2vh;
+	transition: left var(--transition-duration) ease-in-out, right var(--transition-duration) ease-in-out;
+}
+
+.feedbackContainer {
+	padding-top: 5vh;
+	width: 100%;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: var(--theme-color);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input {
+	height: 4vh;
+}
+
+textarea {
+	height: 20vh;
+	resize: none;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1.3vw;
+    font-family: Raleway, monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.sort-filt {
+	display: flex;
+	gap: 10px;
+}
+
+@media (max-width: 567px) {
+
+	main {
+		grid-template-columns: none;
+		width: 100vw;
+	}
+
+	.aside-left, .aside-right {
+		display: none;
+	}
+
+	h1 {
+		font-size: 50px; 
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.functions, section:not(.function) {
+		min-height: 30vh;
+		width: 90vw;
+	}
+
+	span {
+		font-size: 11px;
+	}
+
+	.home-section {
+		text-align: center;
+	}
+
+	.smartHomeImage {
+		width: 80vw;
+	}
+
+	.functions li {
+		font-size: 14px;
+	}
+
+	.function {
+		min-height: 30vh;
+	}
+
+	.facts li {
+		font-size: 14px;
+	}
+
+	.reviews {
+		width: 90%;
+	}
+	.review-header {
+		flex-direction: column;
+		height: 24vh;
+	}
+	.username {
+		font-size: 25px;
+		width: 100%;
+		justify-content: center;
+	}
+	.review-rating {
+		justify-content: center;
+	}
+	.review-text {
+		font-size: 23px;
+	}
+
+	.sell {
+		min-height: 30vh;
+	}
+
+	.functionImage {
+		max-width: 50%;
+	}
+
+	.cart-container {
+		margin-bottom: 10vh;
+	}
+
+	.aside-horizontal {
+		width: 100vw;
+		height: 10vh;
+		position: fixed;
+		bottom: 0;
+		z-index: 3;
+		background-color: white;
+		display: block;
+	}
+
+	.ad-banner-horizontal {
+		width: 100%;
+		height: 10vh;
+		background-color: var(--banner-color);
+	}
+
+	.sort-filt {
+		flex-direction: column;
+		padding-bottom: 5vh;
+	}
+	.reviews {
+		padding-bottom: 5vh;
+	}
+
+	input, textarea {
+		font-size: 18px;
+	}
+	.label-feedback {
+		font-size: 23px;
+	}
+}
