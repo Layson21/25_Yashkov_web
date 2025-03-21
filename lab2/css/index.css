@@ -185,6 +185,7 @@ h3, .facts li {
 
 .reviews{
 	flex-direction: column;
+	padding-bottom: 0vh;
 }
 
 .reviews blockquote {

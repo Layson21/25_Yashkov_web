@@ -34,7 +34,7 @@ const kittyContainer = document.getElementById("kitty");
 function spawnKitty() {
 	const randomY = Math.floor(Math.random() * (window.innerHeight * 0.8) + window.scrollY + window.innerHeight * 0.1);
 	let kitty = document.createElement("img");
-	kitty.src = "img/gifs/kitty-flip.gif";
+	kitty.src = "./img/gifs/kitty-flip.gif";
 	kitty.style.width = "20%";
 	kitty.style.top = `${randomY}px`;
 	kitty.style.position = "absolute";
