@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Order API Client</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Order API Client</h1>
+
+    <h2>Получить заказ по ID</h2>
+    <input type="text" id="orderIdInput" placeholder="Введите ID заказа" value="">
+    <button onclick="getOrderById()">Get Order</button>
+    <pre id="orderResult"></pre>
+
+    <h2>Сделать заказ</h2>
+    <input type="text" id="orderContentInput" placeholder="Введите ваш заказ" value="">
+    <button id="makeOrderBtn" onclick="makeOrder()">Сделать заказ</button>
+    <div id="orderStatusLabel" class="status-label"></div>
+    <pre id="makeOrderResult"></pre>
+
+    <h2>Получить список заказов</h2>
+    <button onclick="getAllOrders()">Получить список заказов</button>
+    <pre id="ordersList"></pre>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

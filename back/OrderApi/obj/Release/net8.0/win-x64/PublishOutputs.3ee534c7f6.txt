@@ -1,0 +1,7 @@
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\test_api_with_sql.pdb
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\orders.db
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\aspnetcorev2_inprocess.dll
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\e_sqlite3.dll
+C:\Users\disen\OneDrive\Документы\учеба\университет\4 семестр\веб\back\test_api_with_sql\bin\Release\net8.0\win-x64\publish\test_api_with_sql.exe

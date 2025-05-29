@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pKy4gy98GURPE3jd5Auuq3Aphjd3OPgzTs1jMykDOQE=",
+  "Source": "OrderApi",
+  "BasePath": "_content/OrderApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

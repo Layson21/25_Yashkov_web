@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:domains\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\services\\orders\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:services\\orders\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\models\\orders\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:models\\orders\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\models\\orders\\orderresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:models\\orders\\orderresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|c:\\users\\disen\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\models\\orders\\ordergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F3FC99-F28A-42FA-9586-BC0B6A6F90AB}|test_api_with_sql.csproj|solutionrelative:models\\orders\\ordergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:50:30.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderGetDto.cs",
+              "RelativeDocumentMoniker": "Models\\Orders\\OrderGetDto.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderGetDto.cs",
+              "RelativeToolTip": "Models\\Orders\\OrderGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:14:53.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderResultDto.cs",
+              "RelativeDocumentMoniker": "Models\\Orders\\OrderResultDto.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderResultDto.cs",
+              "RelativeToolTip": "Models\\Orders\\OrderResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:14:53.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\Orders\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Models\\Orders\\OrderCreateDto.cs",
+              "RelativeToolTip": "Models\\Orders\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:14:52.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Domains\\Order.cs",
+              "RelativeDocumentMoniker": "Domains\\Order.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Domains\\Order.cs",
+              "RelativeToolTip": "Domains\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:02:20.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Services\\Orders\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Orders\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Services\\Orders\\IOrderService.cs",
+              "RelativeToolTip": "Services\\Orders\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:22:05.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:31:01.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:03:15.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Services\\Orders\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Orders\\OrderService.cs",
+              "ToolTip": "C:\\Users\\disen\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0443\u0447\u0435\u0431\u0430\\\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0432\u0435\u0431\\back\\test_api_with_sql\\Services\\Orders\\OrderService.cs",
+              "RelativeToolTip": "Services\\Orders\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:22:05.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

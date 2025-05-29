@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bC0jL7u6fRKllMr1h2ZKmTyxKgDiYMv3r18E+iYRnao=",
+  "Source": "test_api_with_sql",
+  "BasePath": "_content/test_api_with_sql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

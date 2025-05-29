@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+@font-face {
+	font-family: "scratch";
+	src: url("../fonts/scratch.otf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+.background {
+	overflow: hidden;
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.test {
+	color: green;
+}
+
+header {
+	width: 60vw;
+	height: 30vh;
+	margin: auto;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+
+.title {
+	z-index: 11;
+	position: absolute;
+	bottom: 25%;
+	font-family: scratch, monospace;
+	font-size: 5vw;
+	color: white;
+	letter-spacing: 10px; 
+}
+
+.sign {
+	width: 80%;
+	z-index: 10;
+	height: 100%;
+	margin: auto;
+	position: absolute;
+}
+
+.untouchable {
+	user-select: none;
+	pointer-events: none;
+}
+
+nav {
+    width: 80vw;
+    position: absolute;
+    top: 4vh;
+    z-index: 1001;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+}
+
+nav button {
+	font-size: 0.8vw;
+	width: 5vw;
+}
+
+@media (max-width: 567px) {
+    header {
+        width: 100vw;
+    }
+
+    .title {
+        bottom: 35%;
+        font-size: 4vh;
+    }
+
+    nav button {
+	font-size: 2vh;
+}
+}
